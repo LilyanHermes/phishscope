@@ -1,47 +1,61 @@
-# PhishingScope
+# PhishingScope 🔍
 
-PhishingScope is a polished static cybersecurity web app for analyzing suspicious emails, texts, and URLs for phishing behavior. It uses deterministic, rule-based logic to produce a risk score, verdict, detected red flags, plain-English explanation, and recommended next action.
+### Real-Time Phishing Detection for Everyday Browsing
 
-## Files
+PhishingScope is a Chrome extension that analyzes webpages in real time to detect phishing indicators and assign a clear, explainable risk score. It helps users make safer decisions by breaking down threats into simple, understandable insights.
 
-- `index.html` - app structure and content
-- `style.css` - dark cybersecurity visual design and responsive layout
-- `script.js` - phishing detection logic and UI behavior
+---
 
-## How to Run on a MacBook
+## ✨ Features
 
-No build step is required.
+- Real-time webpage analysis  
+- Explainable risk scoring (0–100)  
+- Threat level classification (Low / Medium / High)  
+- Detection of phishing indicators:
+  - Domain spoofing  
+  - Brand impersonation  
+  - Suspicious wording  
+- Clean, modern cybersecurity-focused UI  
 
-1. Open the project folder.
-2. Double-click `index.html`.
+---
 
-You can also open it from Terminal:
+## 📸 Screenshots
 
-```bash
-open /Users/lilyan/Documents/Playground/index.html
-```
+### Extension Interface Preview
 
-## Features
+<p align="center">
+  <img src="main-ui.png" width="45%" />
+  <img src="threat-detection.png" width="45%" />
+</p>
 
-- Hero section and polished landing experience
-- Analyzer for suspicious message text and URLs
-- Rule-based risk score from `0` to `100`
-- Verdicts: `Low Risk`, `Medium Risk`, `High Risk`
-- Detection for:
-  - urgent or threatening language
-  - password, login, verification, payment, gift card, or personal info requests
-  - suspicious link patterns
-  - misspelled brand names
-  - excessive punctuation and pressure wording
-  - fake bank, delivery, and account-provider impersonation
-  - possible brand/domain spoofing
-- Visual cards for each phishing indicator found
-- Sample phishing examples
-- Security tips sidebar
-- Copy result and JSON export
-- Screenshot upload placeholder for future enhancement
+---
 
-## Notes
+## 🚀 How It Works
 
-- This version is plain `HTML`, `CSS`, and `JavaScript` so it runs locally without Node.js.
-- The Google Font import in `index.html` uses the internet. If you want the app to work fully offline, I can swap it to a built-in system font stack.
+PhishingScope scans the current webpage and evaluates it using rule-based detection logic. It looks for common phishing patterns such as impersonation, suspicious language, and misleading domains.  
+
+A risk score is calculated and translated into a clear threat level, along with a plain-language explanation of the findings.
+
+---
+
+## 🛠 Tech Stack
+
+- JavaScript  
+- HTML / CSS  
+- Chrome Extension APIs  
+
+---
+
+## ▶️ How to Run
+
+1. Download or clone the repository  
+2. Open Chrome → go to `chrome://extensions/`  
+3. Enable **Developer Mode**  
+4. Click **Load unpacked**  
+5. Select the project folder  
+
+---
+
+## 👩‍💻 Author
+
+Built by **Lilyan Hermes**
