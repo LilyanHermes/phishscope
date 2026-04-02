@@ -10,8 +10,9 @@ Real-time phishing detection Chrome extension with explainable risk analysis.
 - Clean, modern UI with cybersecurity-focused design
 
 ## 📸 Screenshots
+### Extension Interface Preview
 <p align="center">
-  <img src="main-ui.png" width="45%" />
+  <img src="main-ui.png" width="45%" style="margin-right:10px;" />
   <img src="threat-detection.png" width="45%" />
 </p>
 
